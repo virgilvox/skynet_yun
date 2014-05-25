@@ -13,8 +13,11 @@ INSTALL INSTRUCTIONS:
 3. Run the following commands;
 
 opkg update
+
 opkg install node
+
 opkg install node-serialport
+
 opkg install node-socket.io-client
 
 4. Comment out the last line in /etc/innittab and reboot.
@@ -33,6 +36,8 @@ Once you have the libraries installed, program the Arduino Yun with the yunLed c
 Send it a payload that contains just an integer of 0,1,2, or 3.
 
 msg.payload = 0; ->  ColorWipe - Blue
+
 msg.payload = 1; ->  ColorWipe - Green
-msg.payload = 2; ->  KnightRider - Red
+
+
 msg.payload = 3; ->  KnightRider - Blue
