@@ -3,6 +3,8 @@ skynet_yun
 
 Skynet support for the Arduino Yun.
 
+http://skynet.im
+
 Before you can use this you have to first update the yun system image and install node using the instructions below.
 
 
