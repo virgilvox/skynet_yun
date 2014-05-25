@@ -23,7 +23,9 @@ INSTALL INSTRUCTIONS:
 7. Once it connects and authenticates you can send it messages from skynet and it'll push it to the serial port.
 
 
-Arduino Code:
+Arduino LED strip Code:
+
+Wire your yun up to an LED strip (in this case I used an LPD6803 strip)
 
 Download and Install Libraries:
 https://github.com/neophob/LPD6803-RGB-Pixels
