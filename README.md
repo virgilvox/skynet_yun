@@ -36,3 +36,5 @@ Send it a payload that contains just an integer of 0,1,2, or 3.
 - msg.payload = 1; ->  ColorWipe - Green
 - msg.payload = 2; ->  KnightRider - Red
 - msg.payload = 3; ->  KnightRider - Blue
+- 
+
