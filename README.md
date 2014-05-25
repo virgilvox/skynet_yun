@@ -19,8 +19,8 @@ INSTALL INSTRUCTIONS:
 
 4. Comment out the last line in /etc/innittab and reboot.
 5. You can't git clone on the yun, so instead use another computer to move this repo to the sd card.
-5. Run node skynet_yun.js 
-6. Once it connects and authenticates you can send it messages from skynet and it'll push it to the serial port.
+6. Run node skynet_yun.js 
+7. Once it connects and authenticates you can send it messages from skynet and it'll push it to the serial port.
 
 
 Arduino Code:
